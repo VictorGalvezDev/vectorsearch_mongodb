@@ -1,0 +1,21 @@
+{
+  "name": "mongo",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "embedding": "node ./ia5.mjs",
+    "chat": "node ./chat.js"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.0.49",
+    "@langchain/core": "^0.1.58",
+    "@langchain/openai": "^0.0.28",
+    "langchain": "^0.1.33",
+    "mongodb": "^6.5.0",
+    "node-llama-cpp": "^2.8.9",
+    "pdf-text-reader": "^4.0.1"
+  }
+}
